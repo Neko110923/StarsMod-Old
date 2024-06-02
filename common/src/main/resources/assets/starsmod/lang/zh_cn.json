@@ -1,0 +1,23 @@
+{
+  "itemGroup.starsmod.example_tab": "繁星",
+
+  "block.starsmod.moon_stone": "月球岩石",
+  "block.starsmod.lunar_alloy_ore": "月球合金矿",
+  "block.starsmod.moon_sand": "月球尘土",
+
+  "item.starsmod.space_helmet": "太空头盔",
+  "item.starsmod.space_chestplate": "太空服",
+  "item.starsmod.space_leggings": "太空护腿",
+  "item.starsmod.space_boots": "太空靴",
+
+  "item.starsmod.fan_blade": "风扇叶片",
+  "item.starsmod.small_battery": "小型电池",
+  "item.starsmod.filter": "过滤器",
+  "item.starsmod.iron_plate": "铁板",
+  "item.starsmod.iron_ring": "铁环",
+  "item.starsmod.bearing": "轴承",
+  "item.starsmod.steel_ball": "轴承球",
+  "item.starsmod.high_pressure_tank": "高压罐",
+  "item.starsmod.lunar_alloy": "月球合金碎片",
+  "item.starsmod.lunar_alloy_ingot": "月球合金锭"
+}

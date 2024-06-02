@@ -1,0 +1,23 @@
+{
+  "itemGroup.starsmod.example_tab": "Stars",
+
+  "block.starsmod.moon_stone": "Moon Stone",
+  "block.starsmod.lunar_alloy_ore": "Lunar alloy ore",
+  "block.starsmod.moon_sand": "Moon Sand",
+
+  "item.starsmod.space_helmet": "Space Helmet",
+  "item.starsmod.space_chestplate": "Space Chestplate",
+  "item.starsmod.space_leggings": "Space Legging",
+  "item.starsmod.space_boots": "Space Boot",
+
+  "item.starsmod.fan_blade": "Fan Blade",
+  "item.starsmod.small_battery": "Small Battery",
+  "item.starsmod.filter": "Filter",
+  "item.starsmod.iron_plate": "Iron Plate",
+  "item.starsmod.iron_ring": "Iron Ring",
+  "item.starsmod.bearing": "Bearing",
+  "item.starsmod.steel_ball": "Steel Ball",
+  "item.starsmod.high_pressure_tank": "High-Pressure Tank",
+  "item.starsmod.lunar_alloy_ingot": "Lunar alloy ingot",
+  "item.starsmod.lunar_alloy": "Lunar alloy"
+}

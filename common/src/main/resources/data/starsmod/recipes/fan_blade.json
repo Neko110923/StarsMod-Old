@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " I ",
+    "IBI",
+    " I "
+  ],
+  "key": {
+    "B": {
+      "item": "starsmod:bearing"
+    },
+    "I": {
+      "item": "starsmod:iron_plate"
+    }
+  },
+  "result": {
+    "item": "starsmod:fan_blade"
+  }
+}

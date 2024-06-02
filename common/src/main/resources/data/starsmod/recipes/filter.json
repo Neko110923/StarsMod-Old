@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "BSB",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "starsmod:iron_plate"
+    },
+    "B": {
+      "item": "starsmod:small_battery"
+    },
+    "S": {
+      "item": "minecraft:sponge"
+    }
+  },
+  "result": {
+    "item": "starsmod:filter"
+  }
+}

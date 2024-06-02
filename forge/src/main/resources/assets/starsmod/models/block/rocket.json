@@ -1,0 +1,5 @@
+{
+  "loader": "forge:obj",
+  "model": "starsmod:models/block/rocketmodel.obj",
+  "flip-v": true
+}

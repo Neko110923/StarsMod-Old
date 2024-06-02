@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WIW",
+    "WGW",
+    "WFW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:white_wool"
+    },
+    "I": {
+      "item": "starsmod:fan_blade"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "F": {
+      "item": "starsmod:filter"
+    }
+  },
+  "result": {
+    "item": "starsmod:space_helmet"
+  }
+}

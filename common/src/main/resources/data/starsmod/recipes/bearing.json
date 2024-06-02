@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "BYB",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "starsmod:steel_ball"
+    },
+    "Y": {
+      "item": "starsmod:iron_ring"
+    }
+  },
+  "result": {
+    "item": "starsmod:bearing"
+  }
+}

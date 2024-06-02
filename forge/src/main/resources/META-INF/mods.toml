@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+#issueTrackerURL = ""
+license = "Insert License Here"
+
+[[mods]]
+modId = "starsmod"
+version = "${version}"
+displayName = "Stars"
+authors = "Neko110923 , cyh2 , Starcloudsea"
+description = '''
+This is an example description! Tell everyone what your mod is about!
+'''
+logoFile = "StarsMod_ICON.png"
+
+[[dependencies.starsmod]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.starsmod]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.starsmod]]
+modId = "architectury"
+mandatory = true
+versionRange = "[9.1.12,)"
+ordering = "AFTER"
+side = "BOTH"
