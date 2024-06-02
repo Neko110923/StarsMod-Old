@@ -2,8 +2,6 @@ package net.stars.Blocks;
 
 import dev.architectury.registry.registries.DeferredRegister;
 import dev.architectury.registry.registries.RegistrySupplier;
-import net.minecraft.data.loot.packs.VanillaBlockLoot;
-import net.minecraft.world.item.enchantment.Enchantments;
 import net.stars.StarsMod;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.level.block.Block;
