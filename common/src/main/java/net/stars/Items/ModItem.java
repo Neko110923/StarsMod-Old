@@ -10,6 +10,7 @@ import net.stars.Armor.SpaceHelmet;
 import net.stars.Armor.SpaceLeggings;
 import net.stars.Blocks.ModBlock;
 import net.stars.StarsMod;
+import net.stars.Tab.ModBlockTab;
 import net.stars.Tab.ModCreativeTab;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.Item;
@@ -37,13 +38,13 @@ public class ModItem {
             new Item(new Item.Properties().arch$tab(ModCreativeTab.EXAMPLE_TAB)));
 
     public static final RegistrySupplier<Item> moon_stone = ITEM.register("moon_stone", () ->
-            new BlockItem(ModBlock.moon_stone.get(), new Item.Properties().arch$tab(ModCreativeTab.EXAMPLE_TAB)));
+            new BlockItem(ModBlock.moon_stone.get(), new Item.Properties().arch$tab(ModCreativeTab.EXAMPLE_TAB).arch$tab(ModBlockTab.BLOCK_TAB)));
     public static final RegistrySupplier<Item> lunar_alloy_ore = ITEM.register("lunar_alloy_ore", () ->
-            new BlockItem(ModBlock.lunar_alloy_ore.get(), new Item.Properties().arch$tab(ModCreativeTab.EXAMPLE_TAB)));
+            new BlockItem(ModBlock.lunar_alloy_ore.get(), new Item.Properties().arch$tab(ModCreativeTab.EXAMPLE_TAB).arch$tab(ModBlockTab.BLOCK_TAB)));
     public static final RegistrySupplier<Item> moon_sand = ITEM.register("moon_sand", () ->
-            new BlockItem(ModBlock.moon_sand.get(), new Item.Properties().arch$tab(ModCreativeTab.EXAMPLE_TAB)));
+            new BlockItem(ModBlock.moon_sand.get(), new Item.Properties().arch$tab(ModCreativeTab.EXAMPLE_TAB).arch$tab(ModBlockTab.BLOCK_TAB)));
     public static final RegistrySupplier<Item> rocket = ITEM.register("rocket", () ->
-            new BlockItem(ModBlock.rocket.get(), new Item.Properties().arch$tab(ModCreativeTab.EXAMPLE_TAB)));
+            new BlockItem(ModBlock.rocket.get(), new Item.Properties().arch$tab(ModCreativeTab.EXAMPLE_TAB).arch$tab(ModBlockTab.BLOCK_TAB)));
 
     public static final RegistrySupplier<Item> space_helmet = ITEM.register("space_helmet", () ->
             new ArmorItem(SpaceHelmet.spacehelmet, ArmorItem.Type.HELMET, new Item.Properties().arch$tab(ModCreativeTab.EXAMPLE_TAB)));
