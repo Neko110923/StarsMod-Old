@@ -16,7 +16,7 @@ public class ModBlock {
     public static final RegistrySupplier<Block> rocket = BLOCKS.register("rocket", () -> new Block(BlockBehaviour.Properties.copy(Blocks.SAND)));
     //Ores
     public static final RegistrySupplier<Block> lunar_alloy_ore = BLOCKS.register("lunar_alloy_ore", () -> new Block(BlockBehaviour.Properties.copy(Blocks.OBSIDIAN)
-            .strength(8F).requiresCorrectToolForDrops()));
+            .requiresCorrectToolForDrops()));
 
     public static void register() {
         BLOCKS.register();
