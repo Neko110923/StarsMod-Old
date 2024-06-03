@@ -4,7 +4,7 @@ import net.minecraft.world.entity.player.Player;
 
 import java.util.*;
 
-import static net.stars.StarsMod.nooxylevel;
+import static net.stars.StarsMod.NoOxyLevel;
 
 public class SpaceSuitCheck {
     public static Map<UUID, Boolean> stackMap = new HashMap<>();
@@ -26,7 +26,7 @@ public class SpaceSuitCheck {
         if (stackMap.get(playerUUID) && timer >= 40) {
             timer = 0;
             if (!player.isCreative() || !player.isSpectator()) {
-                nooxylevel.forEach( levelResourceKey -> {
+                NoOxyLevel.forEach( levelResourceKey -> {
                     if (player.level().dimension().equals(levelResourceKey)) {
                         player.hurt(player.damageSources().generic(),7.0F);
                     }
