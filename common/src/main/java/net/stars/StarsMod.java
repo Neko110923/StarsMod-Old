@@ -17,7 +17,6 @@ public class StarsMod {
     public static final String MOD_ID = "starsmod";
 
     public static List<ResourceKey<Level>> NoOxyLevel = new ArrayList<>();
-    public static List<ResourceKey<Level>> LowGravityLevel = new ArrayList<>();
 
     public static void init() {
         ModCreativeTab.register();
@@ -26,7 +25,6 @@ public class StarsMod {
         Moon.register();
 
         NoOxyLevel.add(Moon.moon);
-        LowGravityLevel.add(Moon.moon);
 
         TickEvent.PLAYER_POST.register(SpaceSuitCheck::onPlayerTick);
         TickEvent.PLAYER_POST.register(Gravity::OnTick);

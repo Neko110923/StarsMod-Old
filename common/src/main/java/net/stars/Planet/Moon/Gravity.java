@@ -4,9 +4,8 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Level;
 
-import static net.stars.StarsMod.LowGravityLevel;
-
 public class Gravity {
+
     static boolean up;
     static int time;
 
@@ -15,14 +14,14 @@ public class Gravity {
             time++;
         }
         ResourceKey<Level> dimension = player.level().dimension();
-        if (LowGravityLevel.contains(dimension)) {
+        if (dimension.equals(Moon.moon)) {
             if (time >= 8){
                 time = 0;
                 up = false;
-                player.setDeltaMovement(player.getDeltaMovement().x, -0.06, player.getDeltaMovement().z);
+                player.setDeltaMovement(player.getDeltaMovement().x, -0.07, player.getDeltaMovement().z);
             }
             if (player.getDeltaMovement().y <= 0.0) {
-                player.setDeltaMovement(player.getDeltaMovement().x, -0.06, player.getDeltaMovement().z);
+                player.setDeltaMovement(player.getDeltaMovement().x, -0.07, player.getDeltaMovement().z);
             }
             if (player.getDeltaMovement().y > 0.0) {
                 if (!up) {
