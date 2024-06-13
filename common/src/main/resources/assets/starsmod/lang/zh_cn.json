@@ -20,5 +20,10 @@
   "item.starsmod.steel_ball": "轴承球",
   "item.starsmod.high_pressure_tank": "高压罐",
   "item.starsmod.lunar_alloy": "月球合金碎片",
-  "item.starsmod.lunar_alloy_ingot": "月球合金锭"
+  "item.starsmod.lunar_alloy_ingot": "月球合金锭",
+
+  "advancements.starsmod.root.title": "繁星",
+  "advancements.starsmod.root.description": "现在，开始你的旅途吧!",
+  "advancements.starsmod.moon.title": "你好！月球！",
+  "advancements.starsmod.moon.description": "降落在月球上"
 }

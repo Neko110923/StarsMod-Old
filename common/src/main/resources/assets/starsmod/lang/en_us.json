@@ -20,5 +20,11 @@
   "item.starsmod.steel_ball": "Steel Ball",
   "item.starsmod.high_pressure_tank": "High-Pressure Tank",
   "item.starsmod.lunar_alloy_ingot": "Lunar alloy ingot",
-  "item.starsmod.lunar_alloy": "Lunar alloy"
+  "item.starsmod.lunar_alloy": "Lunar alloy",
+
+  "advancements.starsmod.root.title": "Stars : The Beginning",
+  "advancements.starsmod.root.description": "\"You can see many stars\"",
+  "advancements.starsmod.moon.title": "Hello! Moon!",
+  "advancements.starsmod.moon.description": "Land on the moon"
+
 }

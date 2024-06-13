@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "starsmod:moon_sand"
+    },
+    "title": {
+      "translate": "advancements.starsmod.moon.title"
+    },
+    "description": {
+      "translate": "advancements.starsmod.moon.description"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "starsmod:root",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "starsmod:moon"
+      }
+    }
+  }
+}
