@@ -25,21 +25,23 @@ public class StarsMod {
     public static List<ResourceKey<Level>> NoOxyLevel = new ArrayList<>();
 
     /**
-     * 初始化函数，用于在模块启动时执行必要的注册和配置。
+     * 初始化函数，用于在模块启动时执行必要地注册和配置。
      */
     public static void init() {
-        // 注册创意标签、方块和物品
+        // 注册创造模式分类标签
         ModCreativeTab.register();
+        // 注册方块和物品
         ModBlock.register();
         ModItem.register();
+        // 注册月球维度
         Moon.register();
 
         // 将月球添加到无氧维度列表中
         NoOxyLevel.add(Moon.moon);
 
-        // 注册玩家Tick事件的监听器，用于检查太空服和重力效果
-        TickEvent.PLAYER_POST.register(SpaceSuitCheck::onPlayerTick);
-        TickEvent.PLAYER_POST.register(Gravity::OnTick);
+        // 注册监听器
+        TickEvent.PLAYER_POST.register(SpaceSuitCheck::onPlayerTick); // 注册Tick事件，负责检查是否在真空状态下未穿戴宇航服
+        TickEvent.PLAYER_POST.register(Gravity::ApplyGravity); // 注册Tick事件，负责调节重力
 
         // 打印配置文件目录的路径，用于调试和配置文件定位
         System.out.println(StarsExpectPlatform.getConfigDirectory().toAbsolutePath().normalize().toString());
