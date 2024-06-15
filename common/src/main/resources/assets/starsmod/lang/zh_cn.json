@@ -23,7 +23,9 @@
   "item.starsmod.lunar_alloy_ingot": "月球合金锭",
 
   "advancements.starsmod.root.title": "繁星",
-  "advancements.starsmod.root.description": "现在，开始你的旅途吧!",
+  "advancements.starsmod.root.description": "\"现在，开始你的旅途吧!\"",
   "advancements.starsmod.moon.title": "你好！月球！",
-  "advancements.starsmod.moon.description": "降落在月球上"
+  "advancements.starsmod.moon.description": "降落在月球上",
+  "advancements.starsmod.get_lunar_alloy.title": "\"神奇之物\"",
+  "advancements.starsmod.get_lunar_alloy.description": "获取到“月球合金”，一种带有放射性的铝铜合金"
 }

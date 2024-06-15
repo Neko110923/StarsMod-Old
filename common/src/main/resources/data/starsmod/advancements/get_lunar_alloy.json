@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "starsmod:lunar_alloy_ore"
+    },
+    "title": {
+      "translate": "advancements.starsmod.get_lunar_alloy.title"
+    },
+    "description": {
+      "translate": "advancements.starsmod.get_lunar_alloy.description"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "starsmod:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "starsmod:lunar_alloy"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

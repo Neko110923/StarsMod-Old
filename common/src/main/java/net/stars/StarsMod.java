@@ -6,7 +6,7 @@ import net.minecraft.world.level.Level;
 import net.stars.Blocks.ModBlock;
 import net.stars.Items.ModItem;
 import net.stars.Listener.SpaceSuitCheck;
-import net.stars.Planet.Moon.Gravity;
+import net.stars.Planet.Gravity;
 import net.stars.Planet.Moon.Moon;
 import net.stars.Tab.ModCreativeTab;
 

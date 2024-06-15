@@ -25,6 +25,7 @@
   "advancements.starsmod.root.title": "Stars : The Beginning",
   "advancements.starsmod.root.description": "\"You can see many stars\"",
   "advancements.starsmod.moon.title": "Hello! Moon!",
-  "advancements.starsmod.moon.description": "Land on the moon"
-
+  "advancements.starsmod.moon.description": "Land on the moon",
+  "advancements.starsmod.get_lunar_alloy.title": "\"A magical thing!\"",
+  "advancements.starsmod.get_lunar_alloy.description": "Obtain lunar alloy, a radioactive aluminum copper alloy"
 }
